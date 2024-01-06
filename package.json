@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon backend/server.js",
     "server": "nodemon backend/server.js",
-    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Dheeraj Chandra",
   "license": "ISC",
@@ -23,5 +23,8 @@
     "react-notification-badge": "^1.5.1",
     "react-router-dom": "^5.3.4",
     "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
